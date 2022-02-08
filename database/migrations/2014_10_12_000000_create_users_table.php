@@ -21,13 +21,13 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
-            $table->id('user_id');
-            $table->id('comment_id');
-            $table->string('gender');
-            $table->string('pr');
-            $table->number('phone_number');
-            $table->string('birthplace');
-            $table->string('address');
+            // $table->id('user_id');
+            // $table->id('comment_id');
+            // $table->string('gender');
+            // $table->string('pr');
+            // $table->string('phone_number');
+            // $table->string('birthplace');
+            // $table->string('address');
         });
     }
 
